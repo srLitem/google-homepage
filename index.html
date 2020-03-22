@@ -7,25 +7,34 @@
     <body>
         <div id="header">
             <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><a href="#">More</a></li>
+                <li><a class="headerButton" href="#">Gmail</a></li>
+                <li><a class="headerButton" href="#">Images</a></li>
+                <li><a class="headerButton" href="#">More</a></li>
+                <li><img id="avatar" class="headerButton" src="https://i.picsum.photos/id/1062/200/200.jpg"></li>
             </ul>
         </div>
-        <div>
+        <div class="interactive">
             <div id="logo" class="centered">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
             <form>
-                <div id="searchBar" class="centered">
-                    <input type="text">
+                <div class="centered">
+                    <input id="searchBar" type="text">
                 </div>
                 <div class="centered">
                     <button class="searchButton" type="submit">Google Search</button>
                     <button class="searchButton"type="submit">I'm feeling lucky</button>
                 </div>
             </form> 
-            <p class="centered">Google offered in <a href="#">spanish</a> <a href="#">nederlands</a> <a href="#">frysk</a></p>
+            <p class="centered languages">Google offered in <a href="#">spanish,</a> <a href="#">nederlands,</a> <a href="#">frysk</a></p>
         </div>
+        <footer class="footerTextL">
+            <ul>
+                <li><a class="footerText" href="#">Advertising</a></li>
+                <li><a class="footerText" href="#">Business</a></li>
+                <li><a class="footerText" href="#">About</a></li>
+                <li><a class="footerText" href="#">How search works</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
